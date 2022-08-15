@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid blue;
+    width: 700px;
+    height: 300px;
+    position: relative;
+}
+
+#image{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+    background-image: url(./image/matthew.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.text{
+    width: 450px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    padding: 10px;
+    font-size: large;
+    letter-spacing: 1px;
+}
